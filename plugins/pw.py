@@ -121,7 +121,7 @@ async def account_login(bot: Client, m: Message):
             await m.reply_text(idid)
             vj = ""
         vj+=idid
-    editable2= await m.reply_text("**Enter this to download full batch :-**\n```{vj}```")
+    editable2= await m.reply_text("**Enter this to download full batch :-**\n```{PRITAM}```")
     input4 = message = await bot.listen(editable.chat.id)
     raw_text4 = input4.text
     await m.reply_text("**Enter resolution**")
@@ -161,7 +161,7 @@ async def account_login(bot: Client, m: Message):
             try:
                 for data in response3:
                     class_title=(data["topic"])
-                    class_url=data["url"].replace("d1d34p8vz63oiq", "d3nzo6itypaz07").replace("mpd", "m3u8").strip()
+                    class_url=data["url"].replace("d1d34p8vz63oiq", "d26g5bnklkwsh4").replace("mpd", "m3u8").strip()
                 #cc=f"```{data['topic']}```:```{data['url']}\n```"
                     cc = f"{data['topic']}:{data['url']}"
                     with open(f"{batch}.txt", 'a') as f:
@@ -174,7 +174,7 @@ async def account_login(bot: Client, m: Message):
             try:
                 for data in response4:
                     class_title=(data["topic"])
-                    class_url=data["url"].replace("d1d34p8vz63oiq", "d3nzo6itypaz07").replace("mpd", "m3u8").strip()
+                    class_url=data["url"].replace("d1d34p8vz63oiq", "d26g5bnklkwsh4").replace("mpd", "m3u8").strip()
                 #cc=f"```{data['topic']}```:```{data['url']}\n```"
                     cc = f"{data['topic']}:{data['url']}"
                     with open(f"{batch}.txt", 'a') as f:
@@ -187,7 +187,7 @@ async def account_login(bot: Client, m: Message):
             try:
                 for data in response5:
                     class_title=(data["topic"])
-                    class_url=data["url"].replace("d1d34p8vz63oiq", "d3nzo6itypaz07").replace("mpd", "m3u8").strip()
+                    class_url=data["url"].replace("d1d34p8vz63oiq", "d26g5bnklkwsh4").replace("mpd", "m3u8").strip()
                 #cc=f"```{data['topic']}```:```{data['url']}\n```"
                     cc = f"{data['topic']}:{data['url']}"
                     with open(f"{batch}.txt", 'a') as f:
@@ -200,7 +200,7 @@ async def account_login(bot: Client, m: Message):
             try:
                 for data in response6:
                     class_title=(data["topic"])
-                    class_url=data["url"].replace("d1d34p8vz63oiq", "d3nzo6itypaz07").replace("mpd", "m3u8").strip()
+                    class_url=data["url"].replace("d1d34p8vz63oiq", "d26g5bnklkwsh4").replace("mpd", "m3u8").strip()
                 #cc=f"```{data['topic']}```:```{data['url']}\n```"
                     cc = f"{data['topic']}:{data['url']}"
                     with open(f"{batch}.txt", 'a') as f:
